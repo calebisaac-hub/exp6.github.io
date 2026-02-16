@@ -5,8 +5,8 @@ public class PackageEncapsulationDemo {
         Student s = new Student();
         
         // Fixed: replaced &quot; with real quotes "
-        s.setName("Abishek");
-        s.setRegNo(101);
+        s.setName("Caleb");
+        s.setRegNo(6001);
         
         System.out.println("Student Name: " + s.getName());
         System.out.println("Register Number: " + s.getRegNo());
