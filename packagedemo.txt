@@ -1,0 +1,14 @@
+package studentpack; // This tells Java this file lives in the same folder as Student
+
+public class PackageEncapsulationDemo {
+    public static void main(String[] args) {
+        Student s = new Student();
+        
+        // Fixed: replaced &quot; with real quotes "
+        s.setName("Abishek");
+        s.setRegNo(101);
+        
+        System.out.println("Student Name: " + s.getName());
+        System.out.println("Register Number: " + s.getRegNo());
+    }
+}
