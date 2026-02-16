@@ -1,0 +1,25 @@
+package studentpack;
+
+public class Student {
+    private String name;
+    private int regNo;
+
+    // Setter methods
+    public void setName(String n) {
+        name = n;
+    }
+
+    public void setRegNo(int r) {
+        regNo = r;
+    }
+
+    // Getter methods
+    public String getName() {
+        return name;
+    }
+
+    public int getRegNo() {
+        return regNo;
+    }
+}
+
